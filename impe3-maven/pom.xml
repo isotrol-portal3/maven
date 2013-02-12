@@ -645,6 +645,8 @@
 					<archive>
 						<manifestEntries>
 							<Version>${project.version}</Version>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -666,18 +668,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 					<redirectTestOutputToFile>true</redirectTestOutputToFile>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-						</manifest>
-					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -706,7 +696,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<releaseGoals>deploy</releaseGoals>
+		<releaseGoals>install deploy</releaseGoals>
 		<springVersion>3.0.7.RELEASE</springVersion>
 	</properties>
 
