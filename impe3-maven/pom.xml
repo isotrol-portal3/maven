@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>com.isotrol.impe3.maven</groupId>
 	<artifactId>impe3-maven</artifactId>
-	<version>3.0.0</version>
+	<version>3.0.1</version>
 	<packaging>pom</packaging>
 	<name>Port@l :: Maven Parent and External Dependencies</name>
 	<description>Port@l :: Maven Parent and External Dependencies</description>
@@ -84,7 +84,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>17.0</version>
+				<version>18.0</version>
 			</dependency>
 			<!-- Drag and Drop -->
 			<dependency>
@@ -113,7 +113,7 @@
 			<dependency>
 				<groupId>com.h2database</groupId>
 				<artifactId>h2</artifactId>
-				<version>1.4.180</version>
+				<version>1.4.181</version>
 			</dependency>
 			<!-- Jersey -->
 			<dependency>
@@ -184,28 +184,28 @@
 			<dependency>
 				<groupId>net.sf.derquinsej</groupId>
 				<artifactId>derquinsej-test-support</artifactId>
-				<version>0.2.2</version>
+				<version>0.2.3</version>
 			</dependency>
 			<dependency>
 				<groupId>net.sf.derquinsej</groupId>
 				<artifactId>derquinsej-core</artifactId>
-				<version>0.2.2</version>
+				<version>0.2.3</version>
 			</dependency>
 			<dependency>
 				<groupId>net.sf.derquinsej</groupId>
 				<artifactId>derquinsej-hib3</artifactId>
-				<version>0.2.2</version>
+				<version>0.2.3</version>
 			</dependency>
 			<!-- Lucis -->
 			<dependency>
 				<groupId>net.sf.lucis</groupId>
 				<artifactId>lucis-api</artifactId>
-				<version>3.6.5</version>
+				<version>3.6.7</version>
 			</dependency>
 			<dependency>
 				<groupId>net.sf.lucis</groupId>
 				<artifactId>lucis-core</artifactId>
-				<version>3.6.5</version>
+				<version>3.6.7</version>
 			</dependency>
 			<!-- GWT WIDGET -->
 			<dependency>
@@ -261,12 +261,12 @@
 			<dependency>
 				<groupId>org.freemarker</groupId>
 				<artifactId>freemarker</artifactId>
-				<version>2.3.19</version>
+				<version>2.3.20</version>
 			</dependency>
 			<!-- jGrapht -->
 			<dependency>
 				<groupId>org.jgrapht</groupId>
-				<artifactId>jgrapht-jdk1.5</artifactId>
+				<artifactId>jgrapht</artifactId>
 				<version>0.7.3</version>
 			</dependency>
 			<!-- JSON -->
@@ -291,17 +291,17 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-simple</artifactId>
-				<version>1.7.1</version>
+				<version>1.7.7</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>1.7.1</version>
+				<version>1.7.7</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
-				<version>1.7.1</version>
+				<version>1.7.7</version>
 			</dependency>
 			<!-- Spring Framework -->
 			<dependency>
