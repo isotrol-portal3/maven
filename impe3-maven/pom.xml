@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>com.isotrol.impe3.maven</groupId>
 	<artifactId>impe3-maven</artifactId>
-	<version>3.1.1-SNAPSHOT</version>
+	<version>3.1.1</version>
 	<packaging>pom</packaging>
 	<name>Port@l :: Maven Parent and External Dependencies</name>
 	<description>Port@l :: Maven Parent and External Dependencies</description>
